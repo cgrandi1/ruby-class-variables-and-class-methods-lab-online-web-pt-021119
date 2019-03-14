@@ -1,7 +1,7 @@
 require 'pry'
 class Song 
   
-  attr_writer :name, :artist, :genre
+  attr_reader :name, :artist, :genre
   
   @@count = 0 
   @@genres = []
@@ -13,7 +13,7 @@ class Song
     @@artists << artist
   end 
   
-  def name 
+  def name=(name) 
     @name 
   end 
   
