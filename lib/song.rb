@@ -1,4 +1,4 @@
-gem install bundler:2.0.1require 'pry'
+require 'pry'
 class Song 
   
   @@count = 0 
